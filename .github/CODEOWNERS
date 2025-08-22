@@ -1,0 +1,35 @@
+# CODEOWNERS file for media-store-531
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-product @Armor-test/team-notifications @Armor-test/squad-payments
+
+# Directory ownership
+/modules/ @Armor-test/team-notifications @Armor-test/grp-api @Armor-test/squad-performance
+/controllers/ @Armor-test/team-notifications @Armor-test/dept-data @Armor-test/team-reporting
+/services/ @Armor-test/dept-notifications @Armor-test/dept-billing
+/pages/ @Armor-test/grp-payments @Armor-test/dept-notifications @Armor-test/team-research
+/components/ @Armor-test/team-logging @Armor-test/squad-product
+/deploy/ @Armor-test/grp-storage @Armor-test/team-security
+/utils/ @Armor-test/grp-integration @Armor-test/unit-devops
+/vendor/ @Armor-test/dept-billing @Armor-test/dept-ui @Armor-test/unit-governance
+/ui/ @Armor-test/unit-devops @Armor-test/dept-ui @Armor-test/team-core
+/shared/ @Armor-test/dept-test @Armor-test/squad-reporting @Armor-test/dept-automation
+/common/ @Armor-test/dept-automation @Armor-test/squad-product
+/static/ @Armor-test/dept-billing @Armor-test/team-research @Armor-test/grp-payments
+
+# File type ownership
+*.php @Armor-test/unit-cloud @Armor-test/squad-cache
+*.java @Armor-test/squad-ml @Armor-test/dept-reporting
+*.md @Armor-test/dept-logging @Armor-test/squad-api @Armor-test/dept-reporting
+*.lock @Armor-test/dept-logging @Armor-test/grp-integration
+*.jsx @Armor-test/squad-database @Armor-test/dept-test @Armor-test/squad-frontend
+*.js @Armor-test/grp-storage @Armor-test/unit-cloud @Armor-test/dept-automation
+*.ts @Armor-test/dept-release @Armor-test/squad-frontend @Armor-test/squad-payments
+*.properties @Armor-test/squad-search @Armor-test/squad-ux
+*.xml @Armor-test/squad-search @Armor-test/grp-api
+*.sh @Armor-test/squad-apps @Armor-test/squad-tooling
+*.scss @Armor-test/dept-test @Armor-test/squad-cloud
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
